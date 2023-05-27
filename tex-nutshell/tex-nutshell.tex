@@ -868,8 +868,8 @@ expanded by the expand processor. The summary of `\def` syntax is:
 \begtt \catcode`\|=13 \catcode`\/=13 \catcode`\<=13 \Blue 
 \def|<control sequence>/<parameters>.{<replacement text>};  % local assignment
 \gdef|<control sequence>/<parameters>.{<replacement text>}; % global assignment
-\edef|<control sequence>/<parameters>.{;<replacement text>} % local assignment
-\xdef|<control sequence>/<parameters>.{;<replacement text>} % global assignment
+\edef|<control sequence>/<parameters>.{<replacement text>}; % local assignment
+\xdef|<control sequence>/<parameters>.{<replacement text>}; % global assignment
 \endtt   
 
 If you set \i tracingmacros `\tracingmacros=2`, you can see in the log file how the macros are expanded.
